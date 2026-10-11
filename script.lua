@@ -43,16 +43,49 @@ local _2 = Instance.new("TextLabel")
 local _1_3 = Instance.new("Frame")
 local PlayButton_8 = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
-local PlayButton_9 = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
 local UIGradient_5 = Instance.new("UIGradient")
 local _1_4 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local PlayButton_9 = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
+local PlayButton_10 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local PlayButton_11 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
 local black = Instance.new("Frame")
 local UIGradient_6 = Instance.new("UIGradient")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local GameName_2 = Instance.new("TextLabel")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
+local stealabrainrot = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local _1_5 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local PlayButton_12 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local PlayButton_13 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local PlayButton_14 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local PlayButton_15 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local PlayButton_16 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local brookaven = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local _1_6 = Instance.new("TextLabel")
+local UIGradient_8 = Instance.new("UIGradient")
+local PlayButton_17 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local PlayButton_18 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local PlayButton_19 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local PlayButton_20 = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local PlayButton_21 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
 
 --Properties:
 
@@ -77,9 +110,9 @@ GameName.BackgroundTransparency = 9.000
 GameName.BorderColor3 = Color3.fromRGB(0, 0, 0)
 GameName.BorderSizePixel = 0
 GameName.Position = UDim2.new(0.294238687, 0, 0.266187042, 0)
-GameName.Size = UDim2.new(0, 300, 0, 82)
+GameName.Size = UDim2.new(0.614754081, 0, 0.202702701, 0)
 GameName.Font = Enum.Font.GothamBlack
-GameName.Text = "johnny hub 😈"
+GameName.Text = "🅂🅆🄰🅃 🄷🅄🄱😈"
 GameName.TextColor3 = Color3.fromRGB(255, 255, 255)
 GameName.TextSize = 40.000
 GameName.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
@@ -93,10 +126,10 @@ PlayButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PlayButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
 PlayButton.BorderSizePixel = 0
 PlayButton.Position = UDim2.new(0.122950822, 0, 0.362612605, 0)
-PlayButton.Size = UDim2.new(0, 201, 0, 36)
+PlayButton.Size = UDim2.new(0.614754081, 0, 0.202702701, 0)
 PlayButton.AutoButtonColor = false
 PlayButton.Font = Enum.Font.Gotham
-PlayButton.Text = "Execute"
+PlayButton.Text = "░e░x░e░c░u░t░e░"
 PlayButton.TextColor3 = Color3.fromRGB(255, 0, 0)
 PlayButton.TextSize = 20.000
 PlayButton.TextWrapped = true
@@ -109,10 +142,10 @@ InviteButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 InviteButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
 InviteButton.BorderSizePixel = 0
 InviteButton.Position = UDim2.new(0.359673738, 0, 0.629496396, 0)
-InviteButton.Size = UDim2.new(0, 201, 0, 36)
+InviteButton.Size = UDim2.new(0.614754081, 0, 0.202702701, 0)
 InviteButton.AutoButtonColor = false
 InviteButton.Font = Enum.Font.Gotham
-InviteButton.Text = "who created this"
+InviteButton.Text = "w̷h̷o̷ ̷c̷r̷e̷a̷t̷e̷d̷ ̷t̷h̷i̷s̷"
 InviteButton.TextColor3 = Color3.fromRGB(255, 0, 0)
 InviteButton.TextSize = 20.000
 InviteButton.TextWrapped = true
@@ -125,10 +158,10 @@ LeaveButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 LeaveButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
 LeaveButton.BorderSizePixel = 0
 LeaveButton.Position = UDim2.new(0.359673738, 0, 0.629496396, 0)
-LeaveButton.Size = UDim2.new(0, 201, 0, 36)
+LeaveButton.Size = UDim2.new(0.614754081, 0, 0.202702701, 0)
 LeaveButton.AutoButtonColor = false
 LeaveButton.Font = Enum.Font.Gotham
-LeaveButton.Text = "Leave Experience"
+LeaveButton.Text = "【﻿ｌｅａｖｅ】"
 LeaveButton.TextColor3 = Color3.fromRGB(255, 0, 0)
 LeaveButton.TextSize = 20.000
 LeaveButton.TextWrapped = true
@@ -187,7 +220,7 @@ _1.BackgroundTransparency = 1.000
 _1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 _1.BorderSizePixel = 0
 _1.Position = UDim2.new(0.297050118, 0, 0.837253273, 0)
-_1.Size = UDim2.new(0, 200, 0, 50)
+_1.Size = UDim2.new(0.409724414, 0, 0.225068077, 0)
 _1.Font = Enum.Font.SourceSans
 _1.Text = "Benvenuto johnny, come vedi hai un pannello personalizzato tutto per te :)"
 _1.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -203,7 +236,7 @@ PlayButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PlayButton_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 PlayButton_2.BorderSizePixel = 0
 PlayButton_2.Position = UDim2.new(0.191722393, 0, 0.0611961558, 0)
-PlayButton_2.Size = UDim2.new(0, 299, 0, 44)
+PlayButton_2.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
 PlayButton_2.AutoButtonColor = false
 PlayButton_2.Font = Enum.Font.Gotham
 PlayButton_2.Text = "torna indietro"
@@ -219,7 +252,7 @@ PlayButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PlayButton_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
 PlayButton_3.BorderSizePixel = 0
 PlayButton_3.Position = UDim2.new(0.195819646, 0, 0.290765613, 0)
-PlayButton_3.Size = UDim2.new(0, 299, 0, 44)
+PlayButton_3.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
 PlayButton_3.AutoButtonColor = false
 PlayButton_3.Font = Enum.Font.Gotham
 PlayButton_3.Text = "teletrasportati da un giocatore random"
@@ -235,7 +268,7 @@ PlayButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PlayButton_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
 PlayButton_4.BorderSizePixel = 0
 PlayButton_4.Position = UDim2.new(0.195819646, 0, 0.538340509, 0)
-PlayButton_4.Size = UDim2.new(0, 299, 0, 44)
+PlayButton_4.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
 PlayButton_4.AutoButtonColor = false
 PlayButton_4.Font = Enum.Font.Gotham
 PlayButton_4.Text = "corri in aria (anti boss)"
@@ -251,7 +284,7 @@ PlayButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PlayButton_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
 PlayButton_5.BorderSizePixel = 0
 PlayButton_5.Position = UDim2.new(0.195819646, 0, 0.799419463, 0)
-PlayButton_5.Size = UDim2.new(0, 299, 0, 23)
+PlayButton_5.Size = UDim2.new(0.61253798, 0, 0.103531316, 0)
 PlayButton_5.AutoButtonColor = false
 PlayButton_5.Font = Enum.Font.Gotham
 PlayButton_5.Text = "attraversa i muri"
@@ -267,7 +300,7 @@ PlayButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PlayButton_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
 PlayButton_6.BorderSizePixel = 0
 PlayButton_6.Position = UDim2.new(0.0278326385, 0, 0.290765613, 0)
-PlayButton_6.Size = UDim2.new(0, 70, 0, 44)
+PlayButton_6.Size = UDim2.new(0.143403545, 0, 0.198059916, 0)
 PlayButton_6.AutoButtonColor = false
 PlayButton_6.Font = Enum.Font.Gotham
 PlayButton_6.Text = "aggiungi corsa"
@@ -300,7 +333,7 @@ _1_2.BackgroundTransparency = 1.000
 _1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 _1_2.BorderSizePixel = 0
 _1_2.Position = UDim2.new(0.297050118, 0, 0.837253273, 0)
-_1_2.Size = UDim2.new(0, 200, 0, 50)
+_1_2.Size = UDim2.new(0.409724414, 0, 0.225068077, 0)
 _1_2.Font = Enum.Font.SourceSans
 _1_2.Text = "Benvenuto johnny, come vedi hai un pannello personalizzato tutto per te :)"
 _1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -316,7 +349,7 @@ PlayButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PlayButton_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
 PlayButton_7.BorderSizePixel = 0
 PlayButton_7.Position = UDim2.new(0.191722393, 0, 0.0611961558, 0)
-PlayButton_7.Size = UDim2.new(0, 299, 0, 44)
+PlayButton_7.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
 PlayButton_7.AutoButtonColor = false
 PlayButton_7.Font = Enum.Font.Gotham
 PlayButton_7.Text = "torna indietro"
@@ -333,7 +366,7 @@ _2.BackgroundTransparency = 1.000
 _2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 _2.BorderSizePixel = 0
 _2.Position = UDim2.new(0.292952895, 0, 0.382615745, 0)
-_2.Size = UDim2.new(0, 200, 0, 50)
+_2.Size = UDim2.new(0.409724414, 0, 0.225068077, 0)
 _2.Font = Enum.Font.SourceSans
 _2.Text = "@prolore_sonogin - diego"
 _2.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -357,7 +390,7 @@ PlayButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PlayButton_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
 PlayButton_8.BorderSizePixel = 0
 PlayButton_8.Position = UDim2.new(0.191722393, 0, 0.0611961558, 0)
-PlayButton_8.Size = UDim2.new(0, 299, 0, 44)
+PlayButton_8.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
 PlayButton_8.AutoButtonColor = false
 PlayButton_8.Font = Enum.Font.Gotham
 PlayButton_8.Text = "torna indietro"
@@ -366,22 +399,6 @@ PlayButton_8.TextSize = 20.000
 PlayButton_8.TextWrapped = true
 
 UICorner_15.Parent = PlayButton_8
-
-PlayButton_9.Name = "Play Button"
-PlayButton_9.Parent = _1_3
-PlayButton_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-PlayButton_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
-PlayButton_9.BorderSizePixel = 0
-PlayButton_9.Position = UDim2.new(0.19377102, 0, 0.286264241, 0)
-PlayButton_9.Size = UDim2.new(0, 299, 0, 44)
-PlayButton_9.AutoButtonColor = false
-PlayButton_9.Font = Enum.Font.Gotham
-PlayButton_9.Text = "Steal an egg "
-PlayButton_9.TextColor3 = Color3.fromRGB(255, 0, 0)
-PlayButton_9.TextSize = 20.000
-PlayButton_9.TextWrapped = true
-
-UICorner_16.Parent = PlayButton_9
 
 UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(182, 182, 182)), ColorSequenceKeypoint.new(0.46, Color3.fromRGB(191, 191, 191)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
 UIGradient_5.Rotation = -90
@@ -394,14 +411,71 @@ _1_4.BackgroundTransparency = 1.000
 _1_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 _1_4.BorderSizePixel = 0
 _1_4.Position = UDim2.new(0.297050118, 0, 0.837253273, 0)
-_1_4.Size = UDim2.new(0, 200, 0, 50)
+_1_4.Size = UDim2.new(0.409724414, 0, 0.225068077, 0)
 _1_4.Font = Enum.Font.SourceSans
 _1_4.Text = "Benvenuto johnny, come vedi hai un pannello personalizzato tutto per te :)"
 _1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 _1_4.TextSize = 14.000
 
-UICorner_17.CornerRadius = UDim.new(0, 20)
-UICorner_17.Parent = _1_3
+UICorner_16.CornerRadius = UDim.new(0, 20)
+UICorner_16.Parent = _1_3
+
+ScrollingFrame.Parent = _1_3
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.190521792, 0, 0.283585787, 0)
+ScrollingFrame.Size = UDim2.new(0.616635203, 0, 0.61218518, 0)
+
+PlayButton_9.Name = "Play Button"
+PlayButton_9.Parent = ScrollingFrame
+PlayButton_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_9.BorderSizePixel = 0
+PlayButton_9.Position = UDim2.new(0.472840786, 0, 0.000427772233, 0)
+PlayButton_9.Size = UDim2.new(0.451827228, 0, 0.0990299582, 0)
+PlayButton_9.AutoButtonColor = false
+PlayButton_9.Font = Enum.Font.Gotham
+PlayButton_9.Text = "Steal an egg "
+PlayButton_9.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_9.TextSize = 20.000
+PlayButton_9.TextWrapped = true
+
+UICorner_17.Parent = PlayButton_9
+
+PlayButton_10.Name = "Play Button"
+PlayButton_10.Parent = ScrollingFrame
+PlayButton_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_10.BorderSizePixel = 0
+PlayButton_10.Position = UDim2.new(0.472840786, 0, 0.112961814, 0)
+PlayButton_10.Size = UDim2.new(0.451827228, 0, 0.0990299582, 0)
+PlayButton_10.AutoButtonColor = false
+PlayButton_10.Font = Enum.Font.Gotham
+PlayButton_10.Text = "steal a brainrot"
+PlayButton_10.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_10.TextSize = 20.000
+PlayButton_10.TextWrapped = true
+
+UICorner_18.Parent = PlayButton_10
+
+PlayButton_11.Name = "Play Button"
+PlayButton_11.Parent = ScrollingFrame
+PlayButton_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_11.BorderSizePixel = 0
+PlayButton_11.Position = UDim2.new(0.472840786, 0, 0.22549586, 0)
+PlayButton_11.Size = UDim2.new(0.451827228, 0, 0.0990299582, 0)
+PlayButton_11.AutoButtonColor = false
+PlayButton_11.Font = Enum.Font.Gotham
+PlayButton_11.Text = "brookaven"
+PlayButton_11.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_11.TextSize = 20.000
+PlayButton_11.TextWrapped = true
+
+UICorner_19.Parent = PlayButton_11
 
 black.Name = "black"
 black.Parent = StartMenuGui
@@ -416,29 +490,255 @@ UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fr
 UIGradient_6.Rotation = -90
 UIGradient_6.Parent = black
 
-UICorner_18.CornerRadius = UDim.new(0, 20)
-UICorner_18.Parent = black
+UICorner_20.CornerRadius = UDim.new(0, 20)
+UICorner_20.Parent = black
 
 GameName_2.Name = "GameName"
 GameName_2.Parent = black
-GameName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameName_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 GameName_2.BackgroundTransparency = 9.000
 GameName_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 GameName_2.BorderSizePixel = 0
-GameName_2.Position = UDim2.new(0.201350972, 0, 0.327261686, 0)
-GameName_2.Size = UDim2.new(0, 300, 0, 82)
+GameName_2.Position = UDim2.new(0.0129497405, 0, 0.416137397, 0)
+GameName_2.Size = UDim2.new(0.985635936, 0, 0.287788033, 0)
 GameName_2.Font = Enum.Font.GothamBlack
-GameName_2.Text = "attendi"
-GameName_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameName_2.Text = "[̲̅e][̲̅x][̲̅e][̲̅c][̲̅u][̲̅t][̲̅i][̲̅n][̲̅g] [̲̅s][̲̅w][̲̅a][̲̅t] [̲̅h][̲̅u][̲̅b]\\n"
+GameName_2.TextColor3 = Color3.fromRGB(6, 6, 6)
+GameName_2.TextScaled = true
 GameName_2.TextSize = 40.000
-GameName_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 GameName_2.TextWrapped = true
 
-UICorner_19.Parent = GameName_2
+UICorner_21.Parent = GameName_2
+
+stealabrainrot.Name = "stealabrainrot"
+stealabrainrot.Parent = StartMenuGui
+stealabrainrot.Active = true
+stealabrainrot.BackgroundColor3 = Color3.fromRGB(162, 0, 0)
+stealabrainrot.BackgroundTransparency = 0.020
+stealabrainrot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+stealabrainrot.BorderSizePixel = 0
+stealabrainrot.Position = UDim2.new(0.273999989, 0, 0.432999998, 0)
+stealabrainrot.Size = UDim2.new(0.303000003, 0, 0.282999992, 0)
+stealabrainrot.Visible = false
+stealabrainrot.ZIndex = 3
+
+UICorner_22.CornerRadius = UDim.new(0, 20)
+UICorner_22.Parent = stealabrainrot
+
+_1_5.Name = "1"
+_1_5.Parent = stealabrainrot
+_1_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_5.BackgroundTransparency = 1.000
+_1_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1_5.BorderSizePixel = 0
+_1_5.Position = UDim2.new(0.297050118, 0, 0.837253273, 0)
+_1_5.Size = UDim2.new(0.409724414, 0, 0.225068077, 0)
+_1_5.Font = Enum.Font.SourceSans
+_1_5.Text = "Benvenuto johnny, come vedi hai un pannello personalizzato tutto per te :)"
+_1_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_5.TextSize = 14.000
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(182, 182, 182)), ColorSequenceKeypoint.new(0.46, Color3.fromRGB(191, 191, 191)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_7.Rotation = -90
+UIGradient_7.Parent = stealabrainrot
+
+PlayButton_12.Name = "Play Button"
+PlayButton_12.Parent = stealabrainrot
+PlayButton_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_12.BorderSizePixel = 0
+PlayButton_12.Position = UDim2.new(0.191722393, 0, 0.0611961558, 0)
+PlayButton_12.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
+PlayButton_12.AutoButtonColor = false
+PlayButton_12.Font = Enum.Font.Gotham
+PlayButton_12.Text = "torna indietro"
+PlayButton_12.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_12.TextSize = 20.000
+PlayButton_12.TextWrapped = true
+
+UICorner_23.Parent = PlayButton_12
+
+PlayButton_13.Name = "Play Button"
+PlayButton_13.Parent = stealabrainrot
+PlayButton_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_13.BorderSizePixel = 0
+PlayButton_13.Position = UDim2.new(0.195819646, 0, 0.290765613, 0)
+PlayButton_13.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
+PlayButton_13.AutoButtonColor = false
+PlayButton_13.Font = Enum.Font.Gotham
+PlayButton_13.Text = "teletrasportati da un giocatore random"
+PlayButton_13.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_13.TextSize = 20.000
+PlayButton_13.TextWrapped = true
+
+UICorner_24.Parent = PlayButton_13
+
+PlayButton_14.Name = "Play Button"
+PlayButton_14.Parent = stealabrainrot
+PlayButton_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_14.BorderSizePixel = 0
+PlayButton_14.Position = UDim2.new(0.195819646, 0, 0.538340509, 0)
+PlayButton_14.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
+PlayButton_14.AutoButtonColor = false
+PlayButton_14.Font = Enum.Font.Gotham
+PlayButton_14.Text = "corri in aria (anti boss)"
+PlayButton_14.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_14.TextSize = 20.000
+PlayButton_14.TextWrapped = true
+
+UICorner_25.Parent = PlayButton_14
+
+PlayButton_15.Name = "Play Button"
+PlayButton_15.Parent = stealabrainrot
+PlayButton_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_15.BorderSizePixel = 0
+PlayButton_15.Position = UDim2.new(0.195819646, 0, 0.799419463, 0)
+PlayButton_15.Size = UDim2.new(0.61253798, 0, 0.103531316, 0)
+PlayButton_15.AutoButtonColor = false
+PlayButton_15.Font = Enum.Font.Gotham
+PlayButton_15.Text = "attraversa i muri"
+PlayButton_15.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_15.TextSize = 20.000
+PlayButton_15.TextWrapped = true
+
+UICorner_26.Parent = PlayButton_15
+
+PlayButton_16.Name = "Play Button"
+PlayButton_16.Parent = stealabrainrot
+PlayButton_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_16.BorderSizePixel = 0
+PlayButton_16.Position = UDim2.new(0.0278326385, 0, 0.290765613, 0)
+PlayButton_16.Size = UDim2.new(0.143403545, 0, 0.198059916, 0)
+PlayButton_16.AutoButtonColor = false
+PlayButton_16.Font = Enum.Font.Gotham
+PlayButton_16.Text = "aggiungi corsa"
+PlayButton_16.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_16.TextScaled = true
+PlayButton_16.TextSize = 20.000
+PlayButton_16.TextWrapped = true
+
+UICorner_27.Parent = PlayButton_16
+
+brookaven.Name = "brookaven"
+brookaven.Parent = StartMenuGui
+brookaven.Active = true
+brookaven.BackgroundColor3 = Color3.fromRGB(162, 0, 0)
+brookaven.BackgroundTransparency = 0.020
+brookaven.BorderColor3 = Color3.fromRGB(0, 0, 0)
+brookaven.BorderSizePixel = 0
+brookaven.Position = UDim2.new(0.273999989, 0, 0.432999998, 0)
+brookaven.Size = UDim2.new(0.303000003, 0, 0.282999992, 0)
+brookaven.Visible = false
+brookaven.ZIndex = 3
+
+UICorner_28.CornerRadius = UDim.new(0, 20)
+UICorner_28.Parent = brookaven
+
+_1_6.Name = "1"
+_1_6.Parent = brookaven
+_1_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_6.BackgroundTransparency = 1.000
+_1_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1_6.BorderSizePixel = 0
+_1_6.Position = UDim2.new(0.297050118, 0, 0.837253273, 0)
+_1_6.Size = UDim2.new(0.409724414, 0, 0.225068077, 0)
+_1_6.Font = Enum.Font.SourceSans
+_1_6.Text = "Benvenuto johnny, come vedi hai un pannello personalizzato tutto per te :)"
+_1_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_6.TextSize = 14.000
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(182, 182, 182)), ColorSequenceKeypoint.new(0.46, Color3.fromRGB(191, 191, 191)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_8.Rotation = -90
+UIGradient_8.Parent = brookaven
+
+PlayButton_17.Name = "Play Button"
+PlayButton_17.Parent = brookaven
+PlayButton_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_17.BorderSizePixel = 0
+PlayButton_17.Position = UDim2.new(0.191722393, 0, 0.0611961558, 0)
+PlayButton_17.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
+PlayButton_17.AutoButtonColor = false
+PlayButton_17.Font = Enum.Font.Gotham
+PlayButton_17.Text = "torna indietro"
+PlayButton_17.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_17.TextSize = 20.000
+PlayButton_17.TextWrapped = true
+
+UICorner_29.Parent = PlayButton_17
+
+PlayButton_18.Name = "Play Button"
+PlayButton_18.Parent = brookaven
+PlayButton_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_18.BorderSizePixel = 0
+PlayButton_18.Position = UDim2.new(0.195819646, 0, 0.290765613, 0)
+PlayButton_18.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
+PlayButton_18.AutoButtonColor = false
+PlayButton_18.Font = Enum.Font.Gotham
+PlayButton_18.Text = "teletrasportati da un giocatore random"
+PlayButton_18.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_18.TextSize = 20.000
+PlayButton_18.TextWrapped = true
+
+UICorner_30.Parent = PlayButton_18
+
+PlayButton_19.Name = "Play Button"
+PlayButton_19.Parent = brookaven
+PlayButton_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_19.BorderSizePixel = 0
+PlayButton_19.Position = UDim2.new(0.195819646, 0, 0.538340509, 0)
+PlayButton_19.Size = UDim2.new(0.61253798, 0, 0.198059916, 0)
+PlayButton_19.AutoButtonColor = false
+PlayButton_19.Font = Enum.Font.Gotham
+PlayButton_19.Text = "spia un giocatore"
+PlayButton_19.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_19.TextSize = 20.000
+PlayButton_19.TextWrapped = true
+
+UICorner_31.Parent = PlayButton_19
+
+PlayButton_20.Name = "Play Button"
+PlayButton_20.Parent = brookaven
+PlayButton_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_20.BorderSizePixel = 0
+PlayButton_20.Position = UDim2.new(0.195819646, 0, 0.799419463, 0)
+PlayButton_20.Size = UDim2.new(0.61253798, 0, 0.103531316, 0)
+PlayButton_20.AutoButtonColor = false
+PlayButton_20.Font = Enum.Font.Gotham
+PlayButton_20.Text = "attraversa i muri"
+PlayButton_20.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_20.TextSize = 20.000
+PlayButton_20.TextWrapped = true
+
+UICorner_32.Parent = PlayButton_20
+
+PlayButton_21.Name = "Play Button"
+PlayButton_21.Parent = brookaven
+PlayButton_21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayButton_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayButton_21.BorderSizePixel = 0
+PlayButton_21.Position = UDim2.new(0.0278326385, 0, 0.290765613, 0)
+PlayButton_21.Size = UDim2.new(0.143403545, 0, 0.198059916, 0)
+PlayButton_21.AutoButtonColor = false
+PlayButton_21.Font = Enum.Font.Gotham
+PlayButton_21.Text = "aggiungi corsa"
+PlayButton_21.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton_21.TextScaled = true
+PlayButton_21.TextSize = 20.000
+PlayButton_21.TextWrapped = true
+
+UICorner_33.Parent = PlayButton_21
 
 -- Scripts:
 
-local function SWXPU_fake_script() -- PlayButton.LocalScript 
+local function FYFM_fake_script() -- PlayButton.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton)
 
 	local button = script.Parent
@@ -470,14 +770,14 @@ local function SWXPU_fake_script() -- PlayButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SWXPU_fake_script)()
-local function EGZQVX_fake_script() -- PlayButton.LocalScript 
+coroutine.wrap(FYFM_fake_script)()
+local function GSTHXL_fake_script() -- PlayButton.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton)
 
 	
 end
-coroutine.wrap(EGZQVX_fake_script)()
-local function IELZJG_fake_script() -- PlayButton.LocalScript 
+coroutine.wrap(GSTHXL_fake_script)()
+local function DDUCPA_fake_script() -- PlayButton.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton)
 
 	local TweenService = game:GetService("TweenService")
@@ -571,8 +871,8 @@ local function IELZJG_fake_script() -- PlayButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IELZJG_fake_script)()
-local function FBVBBBG_fake_script() -- InviteButton.LocalScript 
+coroutine.wrap(DDUCPA_fake_script)()
+local function IVARE_fake_script() -- InviteButton.LocalScript 
 	local script = Instance.new('LocalScript', InviteButton)
 
 	local TweenService = game:GetService("TweenService")
@@ -666,8 +966,8 @@ local function FBVBBBG_fake_script() -- InviteButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FBVBBBG_fake_script)()
-local function GFOFJLK_fake_script() -- InviteButton.LocalScript 
+coroutine.wrap(IVARE_fake_script)()
+local function SMEMT_fake_script() -- InviteButton.LocalScript 
 	local script = Instance.new('LocalScript', InviteButton)
 
 	local button = script.Parent
@@ -699,8 +999,8 @@ local function GFOFJLK_fake_script() -- InviteButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GFOFJLK_fake_script)()
-local function GCCRRYN_fake_script() -- LeaveButton.LocalScript 
+coroutine.wrap(SMEMT_fake_script)()
+local function INQQTAR_fake_script() -- LeaveButton.LocalScript 
 	local script = Instance.new('LocalScript', LeaveButton)
 
 	local TweenService = game:GetService("TweenService")
@@ -794,8 +1094,8 @@ local function GCCRRYN_fake_script() -- LeaveButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GCCRRYN_fake_script)()
-local function LFOOBB_fake_script() -- LeaveButton.LocalScript 
+coroutine.wrap(INQQTAR_fake_script)()
+local function WJSCWX_fake_script() -- LeaveButton.LocalScript 
 	local script = Instance.new('LocalScript', LeaveButton)
 
 	local button = script.Parent
@@ -808,8 +1108,8 @@ local function LFOOBB_fake_script() -- LeaveButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LFOOBB_fake_script)()
-local function KPARECD_fake_script() -- Base.LocalScript 
+coroutine.wrap(WJSCWX_fake_script)()
+local function SXMJ_fake_script() -- Base.LocalScript 
 	local script = Instance.new('LocalScript', Base)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -876,8 +1176,8 @@ local function KPARECD_fake_script() -- Base.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KPARECD_fake_script)()
-local function BNPPIWV_fake_script() -- Base.LocalScript 
+coroutine.wrap(SXMJ_fake_script)()
+local function MTLUIMB_fake_script() -- Base.LocalScript 
 	local script = Instance.new('LocalScript', Base)
 
 	local imageLabel = script.Parent
@@ -888,8 +1188,8 @@ local function BNPPIWV_fake_script() -- Base.LocalScript
 	
 	imageLabel.Visible = true
 end
-coroutine.wrap(BNPPIWV_fake_script)()
-local function MXUF_fake_script() -- Corner.LocalScript 
+coroutine.wrap(MTLUIMB_fake_script)()
+local function QQNJ_fake_script() -- Corner.LocalScript 
 	local script = Instance.new('LocalScript', Corner)
 
 	local TweenService = game:GetService("TweenService")
@@ -927,8 +1227,8 @@ local function MXUF_fake_script() -- Corner.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(MXUF_fake_script)()
-local function FFTYQP_fake_script() -- stealanegg.LocalScript 
+coroutine.wrap(QQNJ_fake_script)()
+local function JRZF_fake_script() -- stealanegg.LocalScript 
 	local script = Instance.new('LocalScript', stealanegg)
 
 	local TweenService = game:GetService("TweenService")
@@ -966,8 +1266,8 @@ local function FFTYQP_fake_script() -- stealanegg.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(FFTYQP_fake_script)()
-local function FMVDRIC_fake_script() -- stealanegg.LocalScript 
+coroutine.wrap(JRZF_fake_script)()
+local function XLMU_fake_script() -- stealanegg.LocalScript 
 	local script = Instance.new('LocalScript', stealanegg)
 
 	local frame = script.Parent
@@ -978,8 +1278,8 @@ local function FMVDRIC_fake_script() -- stealanegg.LocalScript
 		task.wait()
 	end
 end
-coroutine.wrap(FMVDRIC_fake_script)()
-local function WZSTN_fake_script() -- stealanegg.LocalScript 
+coroutine.wrap(XLMU_fake_script)()
+local function BHSWSHV_fake_script() -- stealanegg.LocalScript 
 	local script = Instance.new('LocalScript', stealanegg)
 
 	local TweenService = game:GetService("TweenService")
@@ -1017,8 +1317,8 @@ local function WZSTN_fake_script() -- stealanegg.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(WZSTN_fake_script)()
-local function WHHEBIR_fake_script() -- PlayButton_2.LocalScript 
+coroutine.wrap(BHSWSHV_fake_script)()
+local function XXMJV_fake_script() -- PlayButton_2.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_2)
 
 	local TweenService = game:GetService("TweenService")
@@ -1112,8 +1412,8 @@ local function WHHEBIR_fake_script() -- PlayButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WHHEBIR_fake_script)()
-local function DMEGY_fake_script() -- PlayButton_2.LocalScript 
+coroutine.wrap(XXMJV_fake_script)()
+local function YZPV_fake_script() -- PlayButton_2.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_2)
 
 	local button = script.Parent
@@ -1122,8 +1422,8 @@ local function DMEGY_fake_script() -- PlayButton_2.LocalScript
 		button.Parent.Visible = false
 	end)
 end
-coroutine.wrap(DMEGY_fake_script)()
-local function HHUH_fake_script() -- PlayButton_3.LocalScript 
+coroutine.wrap(YZPV_fake_script)()
+local function ELPE_fake_script() -- PlayButton_3.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_3)
 
 	local TweenService = game:GetService("TweenService")
@@ -1217,8 +1517,8 @@ local function HHUH_fake_script() -- PlayButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HHUH_fake_script)()
-local function OSMG_fake_script() -- PlayButton_3.LocalScript 
+coroutine.wrap(ELPE_fake_script)()
+local function GABZM_fake_script() -- PlayButton_3.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_3)
 
 	local button = script.Parent
@@ -1252,8 +1552,8 @@ local function OSMG_fake_script() -- PlayButton_3.LocalScript
 		root.CFrame = targetRoot.CFrame * CFrame.new(0, 0, -3)
 	end)
 end
-coroutine.wrap(OSMG_fake_script)()
-local function VBOINQW_fake_script() -- PlayButton_4.LocalScript 
+coroutine.wrap(GABZM_fake_script)()
+local function RGIU_fake_script() -- PlayButton_4.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_4)
 
 	local TweenService = game:GetService("TweenService")
@@ -1347,8 +1647,8 @@ local function VBOINQW_fake_script() -- PlayButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VBOINQW_fake_script)()
-local function HTZW_fake_script() -- PlayButton_4.LocalScript 
+coroutine.wrap(RGIU_fake_script)()
+local function XVRGT_fake_script() -- PlayButton_4.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_4)
 
 	local button = script.Parent
@@ -1401,8 +1701,8 @@ local function HTZW_fake_script() -- PlayButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HTZW_fake_script)()
-local function BRGCKNJ_fake_script() -- PlayButton_5.LocalScript 
+coroutine.wrap(XVRGT_fake_script)()
+local function OXDKCP_fake_script() -- PlayButton_5.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_5)
 
 	local TweenService = game:GetService("TweenService")
@@ -1496,8 +1796,8 @@ local function BRGCKNJ_fake_script() -- PlayButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BRGCKNJ_fake_script)()
-local function CJTDA_fake_script() -- PlayButton_5.LocalScript 
+coroutine.wrap(OXDKCP_fake_script)()
+local function RWIUMR_fake_script() -- PlayButton_5.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_5)
 
 	local button = script.Parent
@@ -1526,8 +1826,8 @@ local function CJTDA_fake_script() -- PlayButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CJTDA_fake_script)()
-local function TSRGF_fake_script() -- PlayButton_6.LocalScript 
+coroutine.wrap(RWIUMR_fake_script)()
+local function KEHVOT_fake_script() -- PlayButton_6.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_6)
 
 	local TweenService = game:GetService("TweenService")
@@ -1621,8 +1921,8 @@ local function TSRGF_fake_script() -- PlayButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TSRGF_fake_script)()
-local function HINS_fake_script() -- PlayButton_6.LocalScript 
+coroutine.wrap(KEHVOT_fake_script)()
+local function FCGIIQB_fake_script() -- PlayButton_6.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_6)
 
 	local button = script.Parent
@@ -1667,8 +1967,8 @@ local function HINS_fake_script() -- PlayButton_6.LocalScript
 		button.Text = "premi 5 secondi per camminare normale"
 	end)
 end
-coroutine.wrap(HINS_fake_script)()
-local function YYHYL_fake_script() -- credits.LocalScript 
+coroutine.wrap(FCGIIQB_fake_script)()
+local function JUZDRSN_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 
 	local TweenService = game:GetService("TweenService")
@@ -1706,8 +2006,8 @@ local function YYHYL_fake_script() -- credits.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(YYHYL_fake_script)()
-local function QBAISY_fake_script() -- credits.LocalScript 
+coroutine.wrap(JUZDRSN_fake_script)()
+local function BEYVPDP_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 
 	local frame = script.Parent
@@ -1718,8 +2018,8 @@ local function QBAISY_fake_script() -- credits.LocalScript
 		task.wait()
 	end
 end
-coroutine.wrap(QBAISY_fake_script)()
-local function SHEPIVD_fake_script() -- credits.LocalScript 
+coroutine.wrap(BEYVPDP_fake_script)()
+local function SBELUD_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 
 	local TweenService = game:GetService("TweenService")
@@ -1757,8 +2057,8 @@ local function SHEPIVD_fake_script() -- credits.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(SHEPIVD_fake_script)()
-local function XMIGJB_fake_script() -- PlayButton_7.LocalScript 
+coroutine.wrap(SBELUD_fake_script)()
+local function AVSB_fake_script() -- PlayButton_7.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_7)
 
 	local TweenService = game:GetService("TweenService")
@@ -1852,8 +2152,8 @@ local function XMIGJB_fake_script() -- PlayButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XMIGJB_fake_script)()
-local function UXTZIBH_fake_script() -- PlayButton_7.LocalScript 
+coroutine.wrap(AVSB_fake_script)()
+local function WYDGK_fake_script() -- PlayButton_7.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_7)
 
 	local button = script.Parent
@@ -1862,8 +2162,8 @@ local function UXTZIBH_fake_script() -- PlayButton_7.LocalScript
 		button.Parent.Visible = false
 	end)
 end
-coroutine.wrap(UXTZIBH_fake_script)()
-local function MIHI_fake_script() -- PlayButton_8.LocalScript 
+coroutine.wrap(WYDGK_fake_script)()
+local function YBZGZ_fake_script() -- PlayButton_8.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_8)
 
 	local button = script.Parent
@@ -1872,8 +2172,8 @@ local function MIHI_fake_script() -- PlayButton_8.LocalScript
 		button.Parent.Visible = false
 	end)
 end
-coroutine.wrap(MIHI_fake_script)()
-local function MHAEVM_fake_script() -- PlayButton_8.LocalScript 
+coroutine.wrap(YBZGZ_fake_script)()
+local function DSPMV_fake_script() -- PlayButton_8.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_8)
 
 	local TweenService = game:GetService("TweenService")
@@ -1967,12 +2267,102 @@ local function MHAEVM_fake_script() -- PlayButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MHAEVM_fake_script)()
-local function MCWY_fake_script() -- PlayButton_9.LocalScript 
+coroutine.wrap(DSPMV_fake_script)()
+local function PLVYLZ_fake_script() -- _1_3.LocalScript 
+	local script = Instance.new('LocalScript', _1_3)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local frame = script.Parent
+	
+	local gradient = frame:FindFirstChildOfClass("UIGradient")
+	
+	if not gradient then
+		gradient = Instance.new("UIGradient")
+		gradient.Parent = frame
+	end
+	
+	gradient.Color = ColorSequence.new({
+		ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
+		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(230, 230, 230)),
+		ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0))
+	})
+	
+	gradient.Rotation = 0
+	
+	local tweenInfo = TweenInfo.new(
+		2,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.InOut,
+		-1,
+		false
+	)
+	
+	local tween = TweenService:Create(
+		gradient,
+		tweenInfo,
+		{Rotation = 360}
+	)
+	
+	tween:Play()
+end
+coroutine.wrap(PLVYLZ_fake_script)()
+local function XHRRVK_fake_script() -- _1_3.LocalScript 
+	local script = Instance.new('LocalScript', _1_3)
+
+	local frame = script.Parent
+	local target = frame.Parent:WaitForChild("Base")
+	
+	while true do
+		frame.Position = target.Position
+		task.wait()
+	end
+end
+coroutine.wrap(XHRRVK_fake_script)()
+local function NQDEI_fake_script() -- _1_3.LocalScript 
+	local script = Instance.new('LocalScript', _1_3)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local frame = script.Parent
+	
+	local gradient = frame:FindFirstChildOfClass("UIGradient")
+	
+	if not gradient then
+		gradient = Instance.new("UIGradient")
+		gradient.Parent = frame
+	end
+	
+	gradient.Color = ColorSequence.new({
+		ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 242)),
+		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 200, 0)),
+		ColorSequenceKeypoint.new(1, Color3.fromRGB(136, 255, 0))
+	})
+	
+	gradient.Rotation = 0
+	
+	local tweenInfo = TweenInfo.new(
+		2,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.InOut,
+		-1,
+		false
+	)
+	
+	local tween = TweenService:Create(
+		gradient,
+		tweenInfo,
+		{Rotation = 360}
+	)
+	
+	tween:Play()
+end
+coroutine.wrap(NQDEI_fake_script)()
+local function EDUTPOC_fake_script() -- PlayButton_9.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_9)
 
 	local button = script.Parent
-	local frame = button.Parent.Parent:WaitForChild("stealanegg")
+	local frame = button.Parent.Parent.Parent:WaitForChild("stealanegg")
 	local label = frame:WaitForChild("1")
 	
 	local TweenService = game:GetService("TweenService")
@@ -2000,8 +2390,8 @@ local function MCWY_fake_script() -- PlayButton_9.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MCWY_fake_script)()
-local function QSRPMQ_fake_script() -- PlayButton_9.LocalScript 
+coroutine.wrap(EDUTPOC_fake_script)()
+local function LJQCNI_fake_script() -- PlayButton_9.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_9)
 
 	local TweenService = game:GetService("TweenService")
@@ -2095,98 +2485,264 @@ local function QSRPMQ_fake_script() -- PlayButton_9.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QSRPMQ_fake_script)()
-local function UJJLLW_fake_script() -- _1_3.LocalScript 
-	local script = Instance.new('LocalScript', _1_3)
+coroutine.wrap(LJQCNI_fake_script)()
+local function UXHHA_fake_script() -- PlayButton_10.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_10)
 
+	local button = script.Parent
+	local frame = button.Parent.Parent.Parent:WaitForChild("stealabrainrot")
+	local label = frame:WaitForChild("1")
+	
 	local TweenService = game:GetService("TweenService")
 	
-	local frame = script.Parent
+	frame.Visible = false
+	frame.BackgroundTransparency = 1
+	label.Text = ""
 	
-	local gradient = frame:FindFirstChildOfClass("UIGradient")
+	local frase = "benvenuto john questo e il tuo pannello personalizzato per ruba un brainrot"
 	
-	if not gradient then
-		gradient = Instance.new("UIGradient")
-		gradient.Parent = frame
-	end
+	button.Activated:Connect(function()
+		frame.Visible = true
 	
-	gradient.Color = ColorSequence.new({
-		ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
-		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(230, 230, 230)),
-		ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0))
-	})
+		TweenService:Create(
+			frame,
+			TweenInfo.new(0.5),
+			{BackgroundTransparency = 0}
+		):Play()
 	
-	gradient.Rotation = 0
+		label.Text = ""
 	
-	local tweenInfo = TweenInfo.new(
-		2,
-		Enum.EasingStyle.Linear,
-		Enum.EasingDirection.InOut,
-		-1,
-		false
-	)
-	
-	local tween = TweenService:Create(
-		gradient,
-		tweenInfo,
-		{Rotation = 360}
-	)
-	
-	tween:Play()
+		for i = 1, #frase do
+			label.Text = string.sub(frase, 1, i)
+			task.wait(0.1)
+		end
+	end)
 end
-coroutine.wrap(UJJLLW_fake_script)()
-local function ECQL_fake_script() -- _1_3.LocalScript 
-	local script = Instance.new('LocalScript', _1_3)
-
-	local frame = script.Parent
-	local target = frame.Parent:WaitForChild("Base")
-	
-	while true do
-		frame.Position = target.Position
-		task.wait()
-	end
-end
-coroutine.wrap(ECQL_fake_script)()
-local function GTREEVW_fake_script() -- _1_3.LocalScript 
-	local script = Instance.new('LocalScript', _1_3)
+coroutine.wrap(UXHHA_fake_script)()
+local function WJPCV_fake_script() -- PlayButton_10.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_10)
 
 	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
 	
-	local frame = script.Parent
+	local button = script.Parent
 	
-	local gradient = frame:FindFirstChildOfClass("UIGradient")
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
 	
-	if not gradient then
-		gradient = Instance.new("UIGradient")
-		gradient.Parent = frame
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
 	end
 	
-	gradient.Color = ColorSequence.new({
-		ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 242)),
-		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 200, 0)),
-		ColorSequenceKeypoint.new(1, Color3.fromRGB(136, 255, 0))
-	})
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
 	
-	gradient.Rotation = 0
+	local hovering = false
+	local clicking = false
 	
-	local tweenInfo = TweenInfo.new(
-		2,
-		Enum.EasingStyle.Linear,
-		Enum.EasingDirection.InOut,
-		-1,
-		false
-	)
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
 	
-	local tween = TweenService:Create(
-		gradient,
-		tweenInfo,
-		{Rotation = 360}
-	)
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
 	
-	tween:Play()
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
 end
-coroutine.wrap(GTREEVW_fake_script)()
-local function DMEHSU_fake_script() -- black.LocalScript 
+coroutine.wrap(WJPCV_fake_script)()
+local function XCVHI_fake_script() -- PlayButton_11.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_11)
+
+	local button = script.Parent
+	local frame = button.Parent.Parent.Parent:WaitForChild("brookaven")
+	local label = frame:WaitForChild("1")
+	
+	local TweenService = game:GetService("TweenService")
+	
+	frame.Visible = false
+	frame.BackgroundTransparency = 1
+	label.Text = ""
+	
+	local frase = "benvenuto questo e il pannello per brookaven."
+	
+	button.Activated:Connect(function()
+		frame.Visible = true
+	
+		TweenService:Create(
+			frame,
+			TweenInfo.new(0.5),
+			{BackgroundTransparency = 0}
+		):Play()
+	
+		label.Text = ""
+	
+		for i = 1, #frase do
+			label.Text = string.sub(frase, 1, i)
+			task.wait(0.1)
+		end
+	end)
+end
+coroutine.wrap(XCVHI_fake_script)()
+local function FFRYB_fake_script() -- PlayButton_11.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_11)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(FFRYB_fake_script)()
+local function TNEONS_fake_script() -- black.LocalScript 
 	local script = Instance.new('LocalScript', black)
 
 	local TweenService = game:GetService("TweenService")
@@ -2224,8 +2780,8 @@ local function DMEHSU_fake_script() -- black.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(DMEHSU_fake_script)()
-local function TISXKCO_fake_script() -- black.LocalScript 
+coroutine.wrap(TNEONS_fake_script)()
+local function ULVXNBY_fake_script() -- black.LocalScript 
 	local script = Instance.new('LocalScript', black)
 
 	local frame = script.Parent
@@ -2244,4 +2800,1484 @@ local function TISXKCO_fake_script() -- black.LocalScript
 	
 	frame.Visible = false
 end
-coroutine.wrap(TISXKCO_fake_script)()
+coroutine.wrap(ULVXNBY_fake_script)()
+local function SUZH_fake_script() -- stealabrainrot.LocalScript 
+	local script = Instance.new('LocalScript', stealabrainrot)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local frame = script.Parent
+	
+	local gradient = frame:FindFirstChildOfClass("UIGradient")
+	
+	if not gradient then
+		gradient = Instance.new("UIGradient")
+		gradient.Parent = frame
+	end
+	
+	gradient.Color = ColorSequence.new({
+		ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 242)),
+		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 200, 0)),
+		ColorSequenceKeypoint.new(1, Color3.fromRGB(136, 255, 0))
+	})
+	
+	gradient.Rotation = 0
+	
+	local tweenInfo = TweenInfo.new(
+		2,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.InOut,
+		-1,
+		false
+	)
+	
+	local tween = TweenService:Create(
+		gradient,
+		tweenInfo,
+		{Rotation = 360}
+	)
+	
+	tween:Play()
+end
+coroutine.wrap(SUZH_fake_script)()
+local function RFJXYY_fake_script() -- stealabrainrot.LocalScript 
+	local script = Instance.new('LocalScript', stealabrainrot)
+
+	local frame = script.Parent
+	local target = frame.Parent:WaitForChild("Base")
+	
+	while true do
+		frame.Position = target.Position
+		task.wait()
+	end
+end
+coroutine.wrap(RFJXYY_fake_script)()
+local function PQGO_fake_script() -- stealabrainrot.LocalScript 
+	local script = Instance.new('LocalScript', stealabrainrot)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local frame = script.Parent
+	
+	local gradient = frame:FindFirstChildOfClass("UIGradient")
+	
+	if not gradient then
+		gradient = Instance.new("UIGradient")
+		gradient.Parent = frame
+	end
+	
+	gradient.Color = ColorSequence.new({
+		ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
+		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(230, 230, 230)),
+		ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0))
+	})
+	
+	gradient.Rotation = 0
+	
+	local tweenInfo = TweenInfo.new(
+		2,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.InOut,
+		-1,
+		false
+	)
+	
+	local tween = TweenService:Create(
+		gradient,
+		tweenInfo,
+		{Rotation = 360}
+	)
+	
+	tween:Play()
+end
+coroutine.wrap(PQGO_fake_script)()
+local function VOXJLJ_fake_script() -- PlayButton_12.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_12)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(VOXJLJ_fake_script)()
+local function YBYI_fake_script() -- PlayButton_12.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_12)
+
+	local button = script.Parent
+	
+	button.Activated:Connect(function()
+		button.Parent.Visible = false
+	end)
+end
+coroutine.wrap(YBYI_fake_script)()
+local function JXQUDMS_fake_script() -- PlayButton_13.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_13)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(JXQUDMS_fake_script)()
+local function OZEMX_fake_script() -- PlayButton_13.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_13)
+
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	
+	button.Activated:Connect(function()
+		local giocatori = {}
+	
+		for _, p in ipairs(Players:GetPlayers()) do
+			if p ~= player and p.Character then
+				local root = p.Character:FindFirstChild("HumanoidRootPart")
+				local humanoid = p.Character:FindFirstChildOfClass("Humanoid")
+	
+				if root and humanoid and humanoid.Health > 0 then
+					table.insert(giocatori, p)
+				end
+			end
+		end
+	
+		if #giocatori == 0 then
+			warn("Non ci sono altri giocatori disponibili!")
+			return
+		end
+	
+		local scelto = giocatori[math.random(1, #giocatori)]
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+		local targetRoot = scelto.Character:WaitForChild("HumanoidRootPart")
+	
+		root.CFrame = targetRoot.CFrame * CFrame.new(0, 0, -3)
+	end)
+end
+coroutine.wrap(OZEMX_fake_script)()
+local function JDKVRY_fake_script() -- PlayButton_14.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_14)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(JDKVRY_fake_script)()
+local function EIVT_fake_script() -- PlayButton_14.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_14)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	local attivo = false
+	
+	button.Activated:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		if not attivo then
+			attivo = true
+	
+			-- Sali in aria
+			root.CFrame = root.CFrame + Vector3.new(0, 20, 0)
+	
+			local attachment = Instance.new("Attachment")
+			attachment.Name = "AirWalkAttachment"
+			attachment.Parent = root
+	
+			local position = Instance.new("AlignPosition")
+			position.Name = "AirWalkPosition"
+			position.Mode = Enum.PositionAlignmentMode.OneAttachment
+			position.Attachment0 = attachment
+			position.Position = root.Position
+			position.RigidityEnabled = false
+			position.MaxForce = 100000
+			position.MaxVelocity = 50
+			position.Responsiveness = 20
+			position.Parent = root
+	
+		else
+			attivo = false
+	
+			-- Rimuovi il volo
+			local position = root:FindFirstChild("AirWalkPosition")
+			local attachment = root:FindFirstChild("AirWalkAttachment")
+	
+			if position then
+				position:Destroy()
+			end
+	
+			if attachment then
+				attachment:Destroy()
+			end
+	
+			humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
+		end
+	end)
+end
+coroutine.wrap(EIVT_fake_script)()
+local function CJGOC_fake_script() -- PlayButton_15.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_15)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(CJGOC_fake_script)()
+local function IFUK_fake_script() -- PlayButton_15.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_15)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	local attivo = false
+	local partiOriginali = {}
+	
+	button.Activated:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+	
+		attivo = not attivo
+	
+		for _, parte in ipairs(character:GetDescendants()) do
+			if parte:IsA("BasePart") then
+				if attivo then
+					partiOriginali[parte] = parte.CanCollide
+					parte.CanCollide = false
+				else
+					if partiOriginali[parte] ~= nil then
+						parte.CanCollide = partiOriginali[parte]
+						partiOriginali[parte] = nil
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(IFUK_fake_script)()
+local function WDRK_fake_script() -- PlayButton_16.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_16)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(WDRK_fake_script)()
+local function OBRFXVN_fake_script() -- PlayButton_16.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_16)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	local velocitaNormale = 16
+	local incremento = 50
+	local conteggio = 0
+	local staContando = false
+	
+	local function prendiHumanoid()
+		local character = player.Character or player.CharacterAdded:Wait()
+		return character:WaitForChild("Humanoid")
+	end
+	
+	-- Click normale: aggiunge +50 velocità
+	button.Activated:Connect(function()
+		if staContando then return end
+	
+		conteggio += incremento
+		prendiHumanoid().WalkSpeed = velocitaNormale + conteggio
+	end)
+	
+	-- Tieni premuto 5 secondi per tornare normale
+	button.MouseButton1Down:Connect(function()
+		staContando = true
+	
+		for i = 1, 5 do
+			if not staContando then return end
+			button.Text = tostring(i)
+			task.wait(1)
+		end
+	
+		conteggio = 0
+		prendiHumanoid().WalkSpeed = velocitaNormale
+		button.Text = "CORRI"
+		staContando = false
+	end)
+	
+	button.MouseButton1Up:Connect(function()
+		staContando = false
+		button.Text = "premi 5 secondi per camminare normale"
+	end)
+end
+coroutine.wrap(OBRFXVN_fake_script)()
+local function NWPOQ_fake_script() -- brookaven.LocalScript 
+	local script = Instance.new('LocalScript', brookaven)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local frame = script.Parent
+	
+	local gradient = frame:FindFirstChildOfClass("UIGradient")
+	
+	if not gradient then
+		gradient = Instance.new("UIGradient")
+		gradient.Parent = frame
+	end
+	
+	gradient.Color = ColorSequence.new({
+		ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 242)),
+		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 200, 0)),
+		ColorSequenceKeypoint.new(1, Color3.fromRGB(136, 255, 0))
+	})
+	
+	gradient.Rotation = 0
+	
+	local tweenInfo = TweenInfo.new(
+		2,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.InOut,
+		-1,
+		false
+	)
+	
+	local tween = TweenService:Create(
+		gradient,
+		tweenInfo,
+		{Rotation = 360}
+	)
+	
+	tween:Play()
+end
+coroutine.wrap(NWPOQ_fake_script)()
+local function XIJKKV_fake_script() -- brookaven.LocalScript 
+	local script = Instance.new('LocalScript', brookaven)
+
+	local frame = script.Parent
+	local target = frame.Parent:WaitForChild("Base")
+	
+	while true do
+		frame.Position = target.Position
+		task.wait()
+	end
+end
+coroutine.wrap(XIJKKV_fake_script)()
+local function UWKX_fake_script() -- brookaven.LocalScript 
+	local script = Instance.new('LocalScript', brookaven)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local frame = script.Parent
+	
+	local gradient = frame:FindFirstChildOfClass("UIGradient")
+	
+	if not gradient then
+		gradient = Instance.new("UIGradient")
+		gradient.Parent = frame
+	end
+	
+	gradient.Color = ColorSequence.new({
+		ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
+		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(230, 230, 230)),
+		ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0))
+	})
+	
+	gradient.Rotation = 0
+	
+	local tweenInfo = TweenInfo.new(
+		2,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.InOut,
+		-1,
+		false
+	)
+	
+	local tween = TweenService:Create(
+		gradient,
+		tweenInfo,
+		{Rotation = 360}
+	)
+	
+	tween:Play()
+end
+coroutine.wrap(UWKX_fake_script)()
+local function JMYW_fake_script() -- PlayButton_17.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_17)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(JMYW_fake_script)()
+local function WHLAJ_fake_script() -- PlayButton_17.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_17)
+
+	local button = script.Parent
+	
+	button.Activated:Connect(function()
+		button.Parent.Visible = false
+	end)
+end
+coroutine.wrap(WHLAJ_fake_script)()
+local function AWKIWI_fake_script() -- PlayButton_18.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_18)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(AWKIWI_fake_script)()
+local function FLBWD_fake_script() -- PlayButton_18.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_18)
+
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	
+	button.Activated:Connect(function()
+		local giocatori = {}
+	
+		for _, p in ipairs(Players:GetPlayers()) do
+			if p ~= player and p.Character then
+				local root = p.Character:FindFirstChild("HumanoidRootPart")
+				local humanoid = p.Character:FindFirstChildOfClass("Humanoid")
+	
+				if root and humanoid and humanoid.Health > 0 then
+					table.insert(giocatori, p)
+				end
+			end
+		end
+	
+		if #giocatori == 0 then
+			warn("Non ci sono altri giocatori disponibili!")
+			return
+		end
+	
+		local scelto = giocatori[math.random(1, #giocatori)]
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+		local targetRoot = scelto.Character:WaitForChild("HumanoidRootPart")
+	
+		root.CFrame = targetRoot.CFrame * CFrame.new(0, 0, -3)
+	end)
+end
+coroutine.wrap(FLBWD_fake_script)()
+local function HYAMNM_fake_script() -- PlayButton_19.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_19)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(HYAMNM_fake_script)()
+local function KRWTEC_fake_script() -- PlayButton_19.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_19)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	local attivo = false
+	
+	button.Activated:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		if not attivo then
+			attivo = true
+	
+			-- Sali in aria
+			root.CFrame = root.CFrame + Vector3.new(0, 20, 0)
+	
+			local attachment = Instance.new("Attachment")
+			attachment.Name = "AirWalkAttachment"
+			attachment.Parent = root
+	
+			local position = Instance.new("AlignPosition")
+			position.Name = "AirWalkPosition"
+			position.Mode = Enum.PositionAlignmentMode.OneAttachment
+			position.Attachment0 = attachment
+			position.Position = root.Position
+			position.RigidityEnabled = false
+			position.MaxForce = 100000
+			position.MaxVelocity = 50
+			position.Responsiveness = 20
+			position.Parent = root
+	
+		else
+			attivo = false
+	
+			-- Rimuovi il volo
+			local position = root:FindFirstChild("AirWalkPosition")
+			local attachment = root:FindFirstChild("AirWalkAttachment")
+	
+			if position then
+				position:Destroy()
+			end
+	
+			if attachment then
+				attachment:Destroy()
+			end
+	
+			humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
+		end
+	end)
+end
+coroutine.wrap(KRWTEC_fake_script)()
+local function XHRYOOQ_fake_script() -- PlayButton_20.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_20)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(XHRYOOQ_fake_script)()
+local function VLLET_fake_script() -- PlayButton_20.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_20)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	local attivo = false
+	local partiOriginali = {}
+	
+	button.Activated:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+	
+		attivo = not attivo
+	
+		for _, parte in ipairs(character:GetDescendants()) do
+			if parte:IsA("BasePart") then
+				if attivo then
+					partiOriginali[parte] = parte.CanCollide
+					parte.CanCollide = false
+				else
+					if partiOriginali[parte] ~= nil then
+						parte.CanCollide = partiOriginali[parte]
+						partiOriginali[parte] = nil
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(VLLET_fake_script)()
+local function JZBL_fake_script() -- PlayButton_21.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_21)
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	
+	local button = script.Parent
+	
+	-- CONFIGURAZIONE
+	local SOUND_ID = "rbxassetid://82845990304289"
+	
+	local HOVER_SCALE = 1.08
+	local CLICK_SCALE = 0.92
+	
+	local HOVER_TIME = 0.18
+	local CLICK_TIME = 0.08
+	
+	-- SOUND
+	local sound = Instance.new("Sound")
+	sound.Name = "ButtonClickSound"
+	sound.SoundId = SOUND_ID
+	sound.Volume = 0.7
+	sound.Parent = button
+	
+	-- SCALE
+	local scale = button:FindFirstChildOfClass("UIScale")
+	
+	if not scale then
+		scale = Instance.new("UIScale")
+		scale.Scale = 1
+		scale.Parent = button
+	end
+	
+	local function animate(size, duration, style)
+		TweenService:Create(
+			scale,
+			TweenInfo.new(
+				duration,
+				style or Enum.EasingStyle.Back,
+				Enum.EasingDirection.Out
+			),
+			{Scale = size}
+		):Play()
+	end
+	
+	local hovering = false
+	local clicking = false
+	
+	-- MOUSE HOVER
+	button.MouseEnter:Connect(function()
+		hovering = true
+	
+		if not clicking then
+			animate(HOVER_SCALE, HOVER_TIME)
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		hovering = false
+	
+		if not clicking then
+			animate(1, HOVER_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- TOUCH / PRESS
+	button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			clicking = true
+			animate(CLICK_SCALE, CLICK_TIME, Enum.EasingStyle.Quad)
+		end
+	end)
+	
+	-- RELEASE
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.Touch
+			or input.UserInputType == Enum.UserInputType.MouseButton1 then
+	
+			if clicking then
+				clicking = false
+	
+				sound:Play()
+	
+				if hovering then
+					animate(HOVER_SCALE, 0.18)
+				else
+					animate(1, 0.18, Enum.EasingStyle.Back)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(JZBL_fake_script)()
+local function JWXDC_fake_script() -- PlayButton_21.LocalScript 
+	local script = Instance.new('LocalScript', PlayButton_21)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	local velocitaNormale = 16
+	local incremento = 50
+	local conteggio = 0
+	local staContando = false
+	
+	local function prendiHumanoid()
+		local character = player.Character or player.CharacterAdded:Wait()
+		return character:WaitForChild("Humanoid")
+	end
+	
+	-- Click normale: aggiunge +50 velocità
+	button.Activated:Connect(function()
+		if staContando then return end
+	
+		conteggio += incremento
+		prendiHumanoid().WalkSpeed = velocitaNormale + conteggio
+	end)
+	
+	-- Tieni premuto 5 secondi per tornare normale
+	button.MouseButton1Down:Connect(function()
+		staContando = true
+	
+		for i = 1, 5 do
+			if not staContando then return end
+			button.Text = tostring(i)
+			task.wait(1)
+		end
+	
+		conteggio = 0
+		prendiHumanoid().WalkSpeed = velocitaNormale
+		button.Text = "CORRI"
+		staContando = false
+	end)
+	
+	button.MouseButton1Up:Connect(function()
+		staContando = false
+		button.Text = "premi 5 secondi per camminare normale"
+	end)
+end
+coroutine.wrap(JWXDC_fake_script)()
