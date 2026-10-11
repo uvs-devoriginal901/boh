@@ -113,6 +113,7 @@ GameName.Size = UDim2.new(0.614754081, 0, 0.202702701, 0)
 GameName.Font = Enum.Font.GothamBlack
 GameName.Text = "🅂🅆🄰🅃 🄷🅄🄱😈"
 GameName.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameName.TextScaled = true
 GameName.TextSize = 40.000
 GameName.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 GameName.TextWrapped = true
@@ -124,12 +125,13 @@ PlayButton.Parent = Base
 PlayButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PlayButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
 PlayButton.BorderSizePixel = 0
-PlayButton.Position = UDim2.new(0.193000004, 0, 0.293000013, 0)
-PlayButton.Size = UDim2.new(0.614754081, 0, 0.202702701, 0)
+PlayButton.Position = UDim2.new(0.23176299, 0, 0.320027113, 0)
+PlayButton.Size = UDim2.new(0.537182987, 0, 0.172057837, 0)
 PlayButton.AutoButtonColor = false
 PlayButton.Font = Enum.Font.Gotham
 PlayButton.Text = "░e░x░e░c░u░t░e░"
 PlayButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+PlayButton.TextScaled = true
 PlayButton.TextSize = 20.000
 PlayButton.TextWrapped = true
 
@@ -140,12 +142,13 @@ InviteButton.Parent = Base
 InviteButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 InviteButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
 InviteButton.BorderSizePixel = 0
-InviteButton.Position = UDim2.new(0.191640884, 0, 0.503370285, 0)
-InviteButton.Size = UDim2.new(0.614754081, 0, 0.202702701, 0)
+InviteButton.Position = UDim2.new(0.230575308, 0, 0.498593301, 0)
+InviteButton.Size = UDim2.new(0.537182927, 0, 0.172057867, 0)
 InviteButton.AutoButtonColor = false
 InviteButton.Font = Enum.Font.Gotham
 InviteButton.Text = "w̷h̷o̷ ̷c̷r̷e̷a̷t̷e̷d̷ ̷t̷h̷i̷s̷"
 InviteButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+InviteButton.TextScaled = true
 InviteButton.TextSize = 20.000
 InviteButton.TextWrapped = true
 
@@ -156,12 +159,13 @@ LeaveButton.Parent = Base
 LeaveButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 LeaveButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
 LeaveButton.BorderSizePixel = 0
-LeaveButton.Position = UDim2.new(0.194000006, 0, 0.716000021, 0)
-LeaveButton.Size = UDim2.new(0.614754081, 0, 0.202702701, 0)
+LeaveButton.Position = UDim2.new(0.23263675, 0, 0.679077446, 0)
+LeaveButton.Size = UDim2.new(0.537182927, 0, 0.172057897, 0)
 LeaveButton.AutoButtonColor = false
 LeaveButton.Font = Enum.Font.Gotham
 LeaveButton.Text = "【﻿ｌｅａｖｅ】"
 LeaveButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+LeaveButton.TextScaled = true
 LeaveButton.TextSize = 20.000
 LeaveButton.TextWrapped = true
 
@@ -476,7 +480,6 @@ black.BorderColor3 = Color3.fromRGB(0, 0, 0)
 black.BorderSizePixel = 0
 black.Position = UDim2.new(0.270000011, 0, 0.423000008, 0)
 black.Size = UDim2.new(0.312999994, 0, 0.300999999, 0)
-black.Visible = false
 black.ZIndex = 99
 
 UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(182, 182, 182)), ColorSequenceKeypoint.new(0.46, Color3.fromRGB(191, 191, 191)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
@@ -731,7 +734,7 @@ UICorner_33.Parent = PlayButton_21
 
 -- Scripts:
 
-local function GAVC_fake_script() -- PlayButton.LocalScript 
+local function RWAOW_fake_script() -- PlayButton.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton)
 
 	local button = script.Parent
@@ -763,14 +766,14 @@ local function GAVC_fake_script() -- PlayButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GAVC_fake_script)()
-local function FZTFV_fake_script() -- PlayButton.LocalScript 
+coroutine.wrap(RWAOW_fake_script)()
+local function MHCS_fake_script() -- PlayButton.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton)
 
 	
 end
-coroutine.wrap(FZTFV_fake_script)()
-local function UEVSTS_fake_script() -- PlayButton.LocalScript 
+coroutine.wrap(MHCS_fake_script)()
+local function ELMYC_fake_script() -- PlayButton.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton)
 
 	local TweenService = game:GetService("TweenService")
@@ -864,8 +867,8 @@ local function UEVSTS_fake_script() -- PlayButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UEVSTS_fake_script)()
-local function YCAA_fake_script() -- InviteButton.LocalScript 
+coroutine.wrap(ELMYC_fake_script)()
+local function LGGAFM_fake_script() -- InviteButton.LocalScript 
 	local script = Instance.new('LocalScript', InviteButton)
 
 	local TweenService = game:GetService("TweenService")
@@ -959,8 +962,8 @@ local function YCAA_fake_script() -- InviteButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YCAA_fake_script)()
-local function NHBRVU_fake_script() -- InviteButton.LocalScript 
+coroutine.wrap(LGGAFM_fake_script)()
+local function FWMNMJZ_fake_script() -- InviteButton.LocalScript 
 	local script = Instance.new('LocalScript', InviteButton)
 
 	local button = script.Parent
@@ -992,8 +995,8 @@ local function NHBRVU_fake_script() -- InviteButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NHBRVU_fake_script)()
-local function ERKEHZX_fake_script() -- LeaveButton.LocalScript 
+coroutine.wrap(FWMNMJZ_fake_script)()
+local function EPGE_fake_script() -- LeaveButton.LocalScript 
 	local script = Instance.new('LocalScript', LeaveButton)
 
 	local TweenService = game:GetService("TweenService")
@@ -1087,8 +1090,8 @@ local function ERKEHZX_fake_script() -- LeaveButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ERKEHZX_fake_script)()
-local function SOMQMA_fake_script() -- LeaveButton.LocalScript 
+coroutine.wrap(EPGE_fake_script)()
+local function USLSH_fake_script() -- LeaveButton.LocalScript 
 	local script = Instance.new('LocalScript', LeaveButton)
 
 	local button = script.Parent
@@ -1101,8 +1104,8 @@ local function SOMQMA_fake_script() -- LeaveButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SOMQMA_fake_script)()
-local function KQSKEK_fake_script() -- Base.LocalScript 
+coroutine.wrap(USLSH_fake_script)()
+local function DOGAKP_fake_script() -- Base.LocalScript 
 	local script = Instance.new('LocalScript', Base)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1169,8 +1172,8 @@ local function KQSKEK_fake_script() -- Base.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KQSKEK_fake_script)()
-local function IBNNP_fake_script() -- Base.LocalScript 
+coroutine.wrap(DOGAKP_fake_script)()
+local function QTJFLZ_fake_script() -- Base.LocalScript 
 	local script = Instance.new('LocalScript', Base)
 
 	local imageLabel = script.Parent
@@ -1181,8 +1184,8 @@ local function IBNNP_fake_script() -- Base.LocalScript
 	
 	imageLabel.Visible = true
 end
-coroutine.wrap(IBNNP_fake_script)()
-local function LTSCBA_fake_script() -- Corner.LocalScript 
+coroutine.wrap(QTJFLZ_fake_script)()
+local function ZTFN_fake_script() -- Corner.LocalScript 
 	local script = Instance.new('LocalScript', Corner)
 
 	local TweenService = game:GetService("TweenService")
@@ -1220,8 +1223,8 @@ local function LTSCBA_fake_script() -- Corner.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(LTSCBA_fake_script)()
-local function ZVXCGCP_fake_script() -- stealanegg.LocalScript 
+coroutine.wrap(ZTFN_fake_script)()
+local function UZIPK_fake_script() -- stealanegg.LocalScript 
 	local script = Instance.new('LocalScript', stealanegg)
 
 	local TweenService = game:GetService("TweenService")
@@ -1259,8 +1262,8 @@ local function ZVXCGCP_fake_script() -- stealanegg.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(ZVXCGCP_fake_script)()
-local function KVKZVI_fake_script() -- stealanegg.LocalScript 
+coroutine.wrap(UZIPK_fake_script)()
+local function ONVHLG_fake_script() -- stealanegg.LocalScript 
 	local script = Instance.new('LocalScript', stealanegg)
 
 	local frame = script.Parent
@@ -1271,8 +1274,8 @@ local function KVKZVI_fake_script() -- stealanegg.LocalScript
 		task.wait()
 	end
 end
-coroutine.wrap(KVKZVI_fake_script)()
-local function PBAB_fake_script() -- stealanegg.LocalScript 
+coroutine.wrap(ONVHLG_fake_script)()
+local function DXKT_fake_script() -- stealanegg.LocalScript 
 	local script = Instance.new('LocalScript', stealanegg)
 
 	local TweenService = game:GetService("TweenService")
@@ -1310,8 +1313,8 @@ local function PBAB_fake_script() -- stealanegg.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(PBAB_fake_script)()
-local function KRGHC_fake_script() -- PlayButton_2.LocalScript 
+coroutine.wrap(DXKT_fake_script)()
+local function BZXSLSS_fake_script() -- PlayButton_2.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_2)
 
 	local TweenService = game:GetService("TweenService")
@@ -1405,8 +1408,8 @@ local function KRGHC_fake_script() -- PlayButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KRGHC_fake_script)()
-local function TTQAS_fake_script() -- PlayButton_2.LocalScript 
+coroutine.wrap(BZXSLSS_fake_script)()
+local function AGTU_fake_script() -- PlayButton_2.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_2)
 
 	local button = script.Parent
@@ -1415,8 +1418,8 @@ local function TTQAS_fake_script() -- PlayButton_2.LocalScript
 		button.Parent.Visible = false
 	end)
 end
-coroutine.wrap(TTQAS_fake_script)()
-local function UAGIUET_fake_script() -- PlayButton_3.LocalScript 
+coroutine.wrap(AGTU_fake_script)()
+local function VQKBNV_fake_script() -- PlayButton_3.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_3)
 
 	local TweenService = game:GetService("TweenService")
@@ -1510,8 +1513,8 @@ local function UAGIUET_fake_script() -- PlayButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UAGIUET_fake_script)()
-local function JPEML_fake_script() -- PlayButton_3.LocalScript 
+coroutine.wrap(VQKBNV_fake_script)()
+local function GBEXGJ_fake_script() -- PlayButton_3.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_3)
 
 	local button = script.Parent
@@ -1545,8 +1548,8 @@ local function JPEML_fake_script() -- PlayButton_3.LocalScript
 		root.CFrame = targetRoot.CFrame * CFrame.new(0, 0, -3)
 	end)
 end
-coroutine.wrap(JPEML_fake_script)()
-local function WRNSX_fake_script() -- PlayButton_4.LocalScript 
+coroutine.wrap(GBEXGJ_fake_script)()
+local function VLEO_fake_script() -- PlayButton_4.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_4)
 
 	local TweenService = game:GetService("TweenService")
@@ -1640,8 +1643,8 @@ local function WRNSX_fake_script() -- PlayButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WRNSX_fake_script)()
-local function OAGEYF_fake_script() -- PlayButton_4.LocalScript 
+coroutine.wrap(VLEO_fake_script)()
+local function SZFQKR_fake_script() -- PlayButton_4.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_4)
 
 	local button = script.Parent
@@ -1694,8 +1697,8 @@ local function OAGEYF_fake_script() -- PlayButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OAGEYF_fake_script)()
-local function STQC_fake_script() -- PlayButton_5.LocalScript 
+coroutine.wrap(SZFQKR_fake_script)()
+local function KCQT_fake_script() -- PlayButton_5.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_5)
 
 	local TweenService = game:GetService("TweenService")
@@ -1789,8 +1792,8 @@ local function STQC_fake_script() -- PlayButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(STQC_fake_script)()
-local function OIMAL_fake_script() -- PlayButton_5.LocalScript 
+coroutine.wrap(KCQT_fake_script)()
+local function ONVVZX_fake_script() -- PlayButton_5.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_5)
 
 	local button = script.Parent
@@ -1819,8 +1822,8 @@ local function OIMAL_fake_script() -- PlayButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OIMAL_fake_script)()
-local function KLQYYYS_fake_script() -- PlayButton_6.LocalScript 
+coroutine.wrap(ONVVZX_fake_script)()
+local function QWKDTFZ_fake_script() -- PlayButton_6.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_6)
 
 	local TweenService = game:GetService("TweenService")
@@ -1914,8 +1917,8 @@ local function KLQYYYS_fake_script() -- PlayButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KLQYYYS_fake_script)()
-local function ZISKEVC_fake_script() -- PlayButton_6.LocalScript 
+coroutine.wrap(QWKDTFZ_fake_script)()
+local function BAYXHAC_fake_script() -- PlayButton_6.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_6)
 
 	local button = script.Parent
@@ -1960,8 +1963,8 @@ local function ZISKEVC_fake_script() -- PlayButton_6.LocalScript
 		button.Text = "premi 5 secondi per camminare normale"
 	end)
 end
-coroutine.wrap(ZISKEVC_fake_script)()
-local function EWMX_fake_script() -- credits.LocalScript 
+coroutine.wrap(BAYXHAC_fake_script)()
+local function QPGTPQM_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 
 	local TweenService = game:GetService("TweenService")
@@ -1999,8 +2002,8 @@ local function EWMX_fake_script() -- credits.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(EWMX_fake_script)()
-local function BPIYY_fake_script() -- credits.LocalScript 
+coroutine.wrap(QPGTPQM_fake_script)()
+local function DRFWNG_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 
 	local frame = script.Parent
@@ -2011,8 +2014,8 @@ local function BPIYY_fake_script() -- credits.LocalScript
 		task.wait()
 	end
 end
-coroutine.wrap(BPIYY_fake_script)()
-local function WNUNNIL_fake_script() -- credits.LocalScript 
+coroutine.wrap(DRFWNG_fake_script)()
+local function VDBJOKP_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 
 	local TweenService = game:GetService("TweenService")
@@ -2050,8 +2053,8 @@ local function WNUNNIL_fake_script() -- credits.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(WNUNNIL_fake_script)()
-local function KVWBT_fake_script() -- PlayButton_7.LocalScript 
+coroutine.wrap(VDBJOKP_fake_script)()
+local function BJEA_fake_script() -- PlayButton_7.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_7)
 
 	local TweenService = game:GetService("TweenService")
@@ -2145,8 +2148,8 @@ local function KVWBT_fake_script() -- PlayButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KVWBT_fake_script)()
-local function HEZGP_fake_script() -- PlayButton_7.LocalScript 
+coroutine.wrap(BJEA_fake_script)()
+local function QNJSSQP_fake_script() -- PlayButton_7.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_7)
 
 	local button = script.Parent
@@ -2155,8 +2158,8 @@ local function HEZGP_fake_script() -- PlayButton_7.LocalScript
 		button.Parent.Visible = false
 	end)
 end
-coroutine.wrap(HEZGP_fake_script)()
-local function JSKL_fake_script() -- PlayButton_8.LocalScript 
+coroutine.wrap(QNJSSQP_fake_script)()
+local function UIQVPQW_fake_script() -- PlayButton_8.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_8)
 
 	local button = script.Parent
@@ -2165,8 +2168,8 @@ local function JSKL_fake_script() -- PlayButton_8.LocalScript
 		button.Parent.Visible = false
 	end)
 end
-coroutine.wrap(JSKL_fake_script)()
-local function DXKH_fake_script() -- PlayButton_8.LocalScript 
+coroutine.wrap(UIQVPQW_fake_script)()
+local function THUPE_fake_script() -- PlayButton_8.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_8)
 
 	local TweenService = game:GetService("TweenService")
@@ -2260,8 +2263,8 @@ local function DXKH_fake_script() -- PlayButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DXKH_fake_script)()
-local function BGMP_fake_script() -- _1_3.LocalScript 
+coroutine.wrap(THUPE_fake_script)()
+local function CYHXQB_fake_script() -- _1_3.LocalScript 
 	local script = Instance.new('LocalScript', _1_3)
 
 	local TweenService = game:GetService("TweenService")
@@ -2299,8 +2302,8 @@ local function BGMP_fake_script() -- _1_3.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(BGMP_fake_script)()
-local function ELDZEY_fake_script() -- _1_3.LocalScript 
+coroutine.wrap(CYHXQB_fake_script)()
+local function EFKJZQ_fake_script() -- _1_3.LocalScript 
 	local script = Instance.new('LocalScript', _1_3)
 
 	local frame = script.Parent
@@ -2311,8 +2314,8 @@ local function ELDZEY_fake_script() -- _1_3.LocalScript
 		task.wait()
 	end
 end
-coroutine.wrap(ELDZEY_fake_script)()
-local function EKJIT_fake_script() -- _1_3.LocalScript 
+coroutine.wrap(EFKJZQ_fake_script)()
+local function RRXKM_fake_script() -- _1_3.LocalScript 
 	local script = Instance.new('LocalScript', _1_3)
 
 	local TweenService = game:GetService("TweenService")
@@ -2350,8 +2353,8 @@ local function EKJIT_fake_script() -- _1_3.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(EKJIT_fake_script)()
-local function FXVSFDC_fake_script() -- PlayButton_9.LocalScript 
+coroutine.wrap(RRXKM_fake_script)()
+local function SQLQ_fake_script() -- PlayButton_9.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_9)
 
 	local button = script.Parent
@@ -2383,8 +2386,8 @@ local function FXVSFDC_fake_script() -- PlayButton_9.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FXVSFDC_fake_script)()
-local function VZZQY_fake_script() -- PlayButton_9.LocalScript 
+coroutine.wrap(SQLQ_fake_script)()
+local function WVMUSFV_fake_script() -- PlayButton_9.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_9)
 
 	local TweenService = game:GetService("TweenService")
@@ -2478,8 +2481,8 @@ local function VZZQY_fake_script() -- PlayButton_9.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VZZQY_fake_script)()
-local function DRPADYY_fake_script() -- PlayButton_10.LocalScript 
+coroutine.wrap(WVMUSFV_fake_script)()
+local function HXQTVWB_fake_script() -- PlayButton_10.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_10)
 
 	local button = script.Parent
@@ -2511,8 +2514,8 @@ local function DRPADYY_fake_script() -- PlayButton_10.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DRPADYY_fake_script)()
-local function BQFM_fake_script() -- PlayButton_10.LocalScript 
+coroutine.wrap(HXQTVWB_fake_script)()
+local function BZLBFFA_fake_script() -- PlayButton_10.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_10)
 
 	local TweenService = game:GetService("TweenService")
@@ -2606,8 +2609,8 @@ local function BQFM_fake_script() -- PlayButton_10.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BQFM_fake_script)()
-local function LKGAE_fake_script() -- PlayButton_11.LocalScript 
+coroutine.wrap(BZLBFFA_fake_script)()
+local function CLQRQV_fake_script() -- PlayButton_11.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_11)
 
 	local button = script.Parent
@@ -2639,8 +2642,8 @@ local function LKGAE_fake_script() -- PlayButton_11.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LKGAE_fake_script)()
-local function DFNBR_fake_script() -- PlayButton_11.LocalScript 
+coroutine.wrap(CLQRQV_fake_script)()
+local function FCXF_fake_script() -- PlayButton_11.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_11)
 
 	local TweenService = game:GetService("TweenService")
@@ -2734,8 +2737,8 @@ local function DFNBR_fake_script() -- PlayButton_11.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DFNBR_fake_script)()
-local function EIXE_fake_script() -- black.LocalScript 
+coroutine.wrap(FCXF_fake_script)()
+local function MXKQ_fake_script() -- black.LocalScript 
 	local script = Instance.new('LocalScript', black)
 
 	local TweenService = game:GetService("TweenService")
@@ -2773,8 +2776,8 @@ local function EIXE_fake_script() -- black.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(EIXE_fake_script)()
-local function MQKHBCV_fake_script() -- black.LocalScript 
+coroutine.wrap(MXKQ_fake_script)()
+local function PTXGA_fake_script() -- black.LocalScript 
 	local script = Instance.new('LocalScript', black)
 
 	local frame = script.Parent
@@ -2793,8 +2796,8 @@ local function MQKHBCV_fake_script() -- black.LocalScript
 	
 	frame.Visible = false
 end
-coroutine.wrap(MQKHBCV_fake_script)()
-local function UWSWIUZ_fake_script() -- stealabrainrot.LocalScript 
+coroutine.wrap(PTXGA_fake_script)()
+local function XHOWI_fake_script() -- stealabrainrot.LocalScript 
 	local script = Instance.new('LocalScript', stealabrainrot)
 
 	local TweenService = game:GetService("TweenService")
@@ -2832,8 +2835,8 @@ local function UWSWIUZ_fake_script() -- stealabrainrot.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(UWSWIUZ_fake_script)()
-local function SKEHQ_fake_script() -- stealabrainrot.LocalScript 
+coroutine.wrap(XHOWI_fake_script)()
+local function OVQGLBU_fake_script() -- stealabrainrot.LocalScript 
 	local script = Instance.new('LocalScript', stealabrainrot)
 
 	local frame = script.Parent
@@ -2844,8 +2847,8 @@ local function SKEHQ_fake_script() -- stealabrainrot.LocalScript
 		task.wait()
 	end
 end
-coroutine.wrap(SKEHQ_fake_script)()
-local function YOBHB_fake_script() -- stealabrainrot.LocalScript 
+coroutine.wrap(OVQGLBU_fake_script)()
+local function KMMSTGH_fake_script() -- stealabrainrot.LocalScript 
 	local script = Instance.new('LocalScript', stealabrainrot)
 
 	local TweenService = game:GetService("TweenService")
@@ -2883,8 +2886,8 @@ local function YOBHB_fake_script() -- stealabrainrot.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(YOBHB_fake_script)()
-local function ZOAAH_fake_script() -- PlayButton_12.LocalScript 
+coroutine.wrap(KMMSTGH_fake_script)()
+local function CRIYNTF_fake_script() -- PlayButton_12.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_12)
 
 	local TweenService = game:GetService("TweenService")
@@ -2978,8 +2981,8 @@ local function ZOAAH_fake_script() -- PlayButton_12.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZOAAH_fake_script)()
-local function KTJKNL_fake_script() -- PlayButton_12.LocalScript 
+coroutine.wrap(CRIYNTF_fake_script)()
+local function EKXYVJ_fake_script() -- PlayButton_12.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_12)
 
 	local button = script.Parent
@@ -2988,8 +2991,8 @@ local function KTJKNL_fake_script() -- PlayButton_12.LocalScript
 		button.Parent.Visible = false
 	end)
 end
-coroutine.wrap(KTJKNL_fake_script)()
-local function WMBJN_fake_script() -- PlayButton_13.LocalScript 
+coroutine.wrap(EKXYVJ_fake_script)()
+local function QCNPMTK_fake_script() -- PlayButton_13.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_13)
 
 	local TweenService = game:GetService("TweenService")
@@ -3083,8 +3086,8 @@ local function WMBJN_fake_script() -- PlayButton_13.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WMBJN_fake_script)()
-local function NAHQV_fake_script() -- PlayButton_13.LocalScript 
+coroutine.wrap(QCNPMTK_fake_script)()
+local function YWUA_fake_script() -- PlayButton_13.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_13)
 
 	local button = script.Parent
@@ -3118,8 +3121,8 @@ local function NAHQV_fake_script() -- PlayButton_13.LocalScript
 		root.CFrame = targetRoot.CFrame * CFrame.new(0, 0, -3)
 	end)
 end
-coroutine.wrap(NAHQV_fake_script)()
-local function GQVUD_fake_script() -- PlayButton_14.LocalScript 
+coroutine.wrap(YWUA_fake_script)()
+local function QPRV_fake_script() -- PlayButton_14.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_14)
 
 	local TweenService = game:GetService("TweenService")
@@ -3213,8 +3216,8 @@ local function GQVUD_fake_script() -- PlayButton_14.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GQVUD_fake_script)()
-local function AAJKZLQ_fake_script() -- PlayButton_14.LocalScript 
+coroutine.wrap(QPRV_fake_script)()
+local function HNPEO_fake_script() -- PlayButton_14.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_14)
 
 	local button = script.Parent
@@ -3267,8 +3270,8 @@ local function AAJKZLQ_fake_script() -- PlayButton_14.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AAJKZLQ_fake_script)()
-local function CDVH_fake_script() -- PlayButton_15.LocalScript 
+coroutine.wrap(HNPEO_fake_script)()
+local function TXXBQ_fake_script() -- PlayButton_15.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_15)
 
 	local TweenService = game:GetService("TweenService")
@@ -3362,8 +3365,8 @@ local function CDVH_fake_script() -- PlayButton_15.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CDVH_fake_script)()
-local function SGMQHE_fake_script() -- PlayButton_15.LocalScript 
+coroutine.wrap(TXXBQ_fake_script)()
+local function NBEWJB_fake_script() -- PlayButton_15.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_15)
 
 	local button = script.Parent
@@ -3392,8 +3395,8 @@ local function SGMQHE_fake_script() -- PlayButton_15.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SGMQHE_fake_script)()
-local function GXVVY_fake_script() -- PlayButton_16.LocalScript 
+coroutine.wrap(NBEWJB_fake_script)()
+local function YRKGP_fake_script() -- PlayButton_16.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_16)
 
 	local TweenService = game:GetService("TweenService")
@@ -3487,8 +3490,8 @@ local function GXVVY_fake_script() -- PlayButton_16.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GXVVY_fake_script)()
-local function ZOSBIY_fake_script() -- PlayButton_16.LocalScript 
+coroutine.wrap(YRKGP_fake_script)()
+local function GTAB_fake_script() -- PlayButton_16.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_16)
 
 	local button = script.Parent
@@ -3533,8 +3536,8 @@ local function ZOSBIY_fake_script() -- PlayButton_16.LocalScript
 		button.Text = "premi 5 secondi per camminare normale"
 	end)
 end
-coroutine.wrap(ZOSBIY_fake_script)()
-local function SLJRD_fake_script() -- brookaven.LocalScript 
+coroutine.wrap(GTAB_fake_script)()
+local function QHYQO_fake_script() -- brookaven.LocalScript 
 	local script = Instance.new('LocalScript', brookaven)
 
 	local TweenService = game:GetService("TweenService")
@@ -3572,8 +3575,8 @@ local function SLJRD_fake_script() -- brookaven.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(SLJRD_fake_script)()
-local function EECT_fake_script() -- brookaven.LocalScript 
+coroutine.wrap(QHYQO_fake_script)()
+local function NHZYJ_fake_script() -- brookaven.LocalScript 
 	local script = Instance.new('LocalScript', brookaven)
 
 	local frame = script.Parent
@@ -3584,8 +3587,8 @@ local function EECT_fake_script() -- brookaven.LocalScript
 		task.wait()
 	end
 end
-coroutine.wrap(EECT_fake_script)()
-local function SIEII_fake_script() -- brookaven.LocalScript 
+coroutine.wrap(NHZYJ_fake_script)()
+local function GZJXS_fake_script() -- brookaven.LocalScript 
 	local script = Instance.new('LocalScript', brookaven)
 
 	local TweenService = game:GetService("TweenService")
@@ -3623,8 +3626,8 @@ local function SIEII_fake_script() -- brookaven.LocalScript
 	
 	tween:Play()
 end
-coroutine.wrap(SIEII_fake_script)()
-local function IQJJNZC_fake_script() -- PlayButton_17.LocalScript 
+coroutine.wrap(GZJXS_fake_script)()
+local function LHUL_fake_script() -- PlayButton_17.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_17)
 
 	local TweenService = game:GetService("TweenService")
@@ -3718,8 +3721,8 @@ local function IQJJNZC_fake_script() -- PlayButton_17.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IQJJNZC_fake_script)()
-local function RCFETS_fake_script() -- PlayButton_17.LocalScript 
+coroutine.wrap(LHUL_fake_script)()
+local function RRGKW_fake_script() -- PlayButton_17.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_17)
 
 	local button = script.Parent
@@ -3728,8 +3731,8 @@ local function RCFETS_fake_script() -- PlayButton_17.LocalScript
 		button.Parent.Visible = false
 	end)
 end
-coroutine.wrap(RCFETS_fake_script)()
-local function FATAUJT_fake_script() -- PlayButton_18.LocalScript 
+coroutine.wrap(RRGKW_fake_script)()
+local function PETNJ_fake_script() -- PlayButton_18.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_18)
 
 	local TweenService = game:GetService("TweenService")
@@ -3823,8 +3826,8 @@ local function FATAUJT_fake_script() -- PlayButton_18.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FATAUJT_fake_script)()
-local function CLKGGPN_fake_script() -- PlayButton_18.LocalScript 
+coroutine.wrap(PETNJ_fake_script)()
+local function LLXHWKJ_fake_script() -- PlayButton_18.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_18)
 
 	local button = script.Parent
@@ -3858,8 +3861,8 @@ local function CLKGGPN_fake_script() -- PlayButton_18.LocalScript
 		root.CFrame = targetRoot.CFrame * CFrame.new(0, 0, -3)
 	end)
 end
-coroutine.wrap(CLKGGPN_fake_script)()
-local function CIILB_fake_script() -- PlayButton_19.LocalScript 
+coroutine.wrap(LLXHWKJ_fake_script)()
+local function XYNOQH_fake_script() -- PlayButton_19.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_19)
 
 	local TweenService = game:GetService("TweenService")
@@ -3953,8 +3956,8 @@ local function CIILB_fake_script() -- PlayButton_19.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CIILB_fake_script)()
-local function ZUWKGSU_fake_script() -- PlayButton_19.LocalScript 
+coroutine.wrap(XYNOQH_fake_script)()
+local function NNCAB_fake_script() -- PlayButton_19.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_19)
 
 	local button = script.Parent
@@ -4007,8 +4010,8 @@ local function ZUWKGSU_fake_script() -- PlayButton_19.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZUWKGSU_fake_script)()
-local function JXMQZB_fake_script() -- PlayButton_20.LocalScript 
+coroutine.wrap(NNCAB_fake_script)()
+local function LZXO_fake_script() -- PlayButton_20.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_20)
 
 	local TweenService = game:GetService("TweenService")
@@ -4102,8 +4105,8 @@ local function JXMQZB_fake_script() -- PlayButton_20.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JXMQZB_fake_script)()
-local function PCXQL_fake_script() -- PlayButton_20.LocalScript 
+coroutine.wrap(LZXO_fake_script)()
+local function IHPTBKF_fake_script() -- PlayButton_20.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_20)
 
 	local button = script.Parent
@@ -4132,8 +4135,8 @@ local function PCXQL_fake_script() -- PlayButton_20.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PCXQL_fake_script)()
-local function JWXEKQW_fake_script() -- PlayButton_21.LocalScript 
+coroutine.wrap(IHPTBKF_fake_script)()
+local function QETV_fake_script() -- PlayButton_21.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_21)
 
 	local TweenService = game:GetService("TweenService")
@@ -4227,8 +4230,8 @@ local function JWXEKQW_fake_script() -- PlayButton_21.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JWXEKQW_fake_script)()
-local function PKGQKCV_fake_script() -- PlayButton_21.LocalScript 
+coroutine.wrap(QETV_fake_script)()
+local function XFVT_fake_script() -- PlayButton_21.LocalScript 
 	local script = Instance.new('LocalScript', PlayButton_21)
 
 	local button = script.Parent
@@ -4273,4 +4276,4 @@ local function PKGQKCV_fake_script() -- PlayButton_21.LocalScript
 		button.Text = "premi 5 secondi per camminare normale"
 	end)
 end
-coroutine.wrap(PKGQKCV_fake_script)()
+coroutine.wrap(XFVT_fake_script)()
